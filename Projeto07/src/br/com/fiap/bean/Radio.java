@@ -16,7 +16,7 @@ public class Radio {
             if (volume >= 0 && volume <= 100){
                 this.volume = volume;
             } else {
-                throw new Exception("Valor fora da faiza permitida (min = 0  até max = 100");
+                throw new Exception("Valor fora da faixa permitida (min = 0  até max = 100");
             }
         } catch (Exception e) {
             System.out.println(e.getMessage());
